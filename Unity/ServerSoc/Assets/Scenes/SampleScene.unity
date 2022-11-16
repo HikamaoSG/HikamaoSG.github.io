@@ -1386,12 +1386,12 @@ MonoBehaviour:
   userEmail: {fileID: 294437744}
   userPassword: {fileID: 2077503459}
   userName: {fileID: 1668428606}
-  displayName: {fileID: 0}
+  displayName: {fileID: 117546046}
   Msg: {fileID: 631437407}
   Email: {fileID: 1054256023}
   Password: {fileID: 800484416}
   currentScore: {fileID: 0}
-  Score: {fileID: 0}
+  Score: {fileID: 1996857581}
 --- !u!1 &375604937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,7 +2062,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &630657797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2121,6 +2121,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2185,8 +2186,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53, y: -156.49869}
-  m_SizeDelta: {x: 330.4341, y: 35.8286}
+  m_AnchoredPosition: {x: 273.56, y: 40.0465}
+  m_SizeDelta: {x: 327.68, y: 196.681}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631437407
 MonoBehaviour:
@@ -4714,7 +4715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -4905,7 +4905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1332050319
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4928,8 +4928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 472.5, y: 253}
-  m_SizeDelta: {x: 945, y: 506}
+  m_AnchoredPosition: {x: 437.4, y: 195.4}
+  m_SizeDelta: {x: 874.8, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332050320
 MonoBehaviour:
@@ -4989,6 +4989,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -6068,6 +6069,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
