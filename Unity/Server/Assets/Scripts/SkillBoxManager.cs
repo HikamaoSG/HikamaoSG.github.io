@@ -1,18 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PlayFab;
+using PlayFab.ClientModels;
 
 public class SkillBoxManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Skillbox[] skillboxes;
+    public void SendJSON()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        List<Skill> skillList = new List<Skill>();
+        foreach (var item in skillboxes) skillList.Add(item.ReturnClass());
     }
 }
