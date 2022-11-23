@@ -141,6 +141,11 @@ public class PlayFabUserMgt : MonoBehaviour
     {
         Msg.text = "Successful leaderboard sent: " + r.ToString();
     }
+
+    public void OnButtonLogOut()
+    {
+        PlayFabClientAPI.ForgetAllCredentials();
+    }
     void FailureCallback(PlayFabError error)
     {
         Debug.LogWarning("Something went wrong with your API call. Here's some debug information:");
